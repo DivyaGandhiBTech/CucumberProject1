@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="6" time="432.838713">
+    <testcase classname="Validate the login functionality with toclick USA." name="Validate the login Functionality with invalid username and valid password" time="36.778553">
+        <system-out><![CDATA[Given User should launch the browser and load the Url.......................passed
+When User should click the USA..............................................passed
+And User should enter invalid username and valid password...................passed
+And User should click the login button......................................passed
+And User should print the title of login button.............................passed
+Then User should navigate to correct credential page........................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Validate the login functionality with toclick USA." name="Validate the login Functionality with valid username and invalid password" time="42.674951">
+        <system-out><![CDATA[Given User should launch the browser and load the Url.......................passed
+When User should click the USA..............................................passed
+And User should enter valid username and invalid password...................passed
+And User should click the login button......................................passed
+And User should print the title of login button.............................passed
+Then User should navigate to correct credential page........................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Validate the login functionality with toclick USA." name="Validate the login functionality with invalid Username and invalid Password." time="56.526886">
+        <system-out><![CDATA[Given User should launch the browser and load the Url.......................passed
+When User should click the USA..............................................passed
+And User should enter invalid username "Divya" and invalid password"divya@123".passed
+And User should click the login button......................................passed
+And User should print the title of login button.............................passed
+Then User should navigate to correct credential page........................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Validate the login functionality with toclick USA." name="Validate the login functionality with invalid Username and invalid Password. 2" time="80.611999">
+        <system-out><![CDATA[Given User should launch the browser and load the Url.......................passed
+When User should click the USA..............................................passed
+And User should enter invalid username "Gandhi" and invalid password"gandhi@123".passed
+And User should click the login button......................................passed
+And User should print the title of login button.............................passed
+Then User should navigate to correct credential page........................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Validate the login functionality with toclick USA." name="Validate the login functionality with invalid Username and invalid Password. 3" time="69.676715">
+        <system-out><![CDATA[Given User should launch the browser and load the Url.......................passed
+When User should click the USA..............................................passed
+And User should enter invalid username "Vignesh" and invalid password"vignesh@123".passed
+And User should click the login button......................................passed
+And User should print the title of login button.............................passed
+Then User should navigate to correct credential page........................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Validate the login functionality of online purchase." name="Validate the login functionality with toclick USA." time="146.569609">
+        <system-out><![CDATA[Given User should launch the browser and load the Url.......................passed
+When User should click the USA..............................................passed
+And User should search a particular product.................................passed
+And User should print the title of your page................................passed
+And User should click the click search button...............................passed
+Then User should navigate to correct credential page........................passed
+]]></system-out>
+    </testcase>
+</testsuite>
